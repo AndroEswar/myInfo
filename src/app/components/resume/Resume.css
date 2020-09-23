@@ -1,0 +1,77 @@
+.fullscreenDiv {
+  background-color: #2196F3;
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+  top: 0px;
+  left: 0;
+  position: absolute;
+}
+.container {
+  position: absolute;
+  background-color: #fff;
+  top: 0.7rem;
+  left: 0.7rem;
+  right: 0.7rem;
+  bottom: 0.7rem;
+}
+.center-container {
+  position: absolute;
+  bottom: 68%;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+}
+.main-container {
+  width: 100%;
+}
+.image {
+  width: 290px;
+  height: 290px;
+}
+.image-container {
+  width: 35%;
+  padding-left: 11%;
+  float: left;
+}
+.details-container {
+  padding-top: 1.5rem;
+  text-align: left;
+  width: 65%;
+  float: left;
+}
+.hello {
+  font-size: 4rem;
+  font-family: cursive;
+  font-weight: unset;
+}
+.hello span {
+  font-size: 2rem;
+}
+.name {
+  font-size: 3rem;
+  font-weight: 400;
+}
+.self-details {
+  font-size: 2rem;
+  font-weight: unset;
+  font-family: monospace;
+}
+.button-container {
+  padding-top: 2rem;
+}
+.button {
+  padding: 1.2rem 2.2rem;
+  background: #2196F3;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+.button-link {
+  text-decoration: none;
+}
+.footer-container {
+  width: 100%;
+}
