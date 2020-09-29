@@ -75,3 +75,50 @@
 .footer-container {
   width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+  .center-container {
+    bottom: 78%;
+  }
+  .image-container {
+    width: 100%;
+    padding-left: 0;
+    float: unset;
+  }
+  .image {
+    width: 38%;
+    height: auto;
+  }
+  .details-container {
+    text-align: center;
+    width: 100%;
+  }
+  .hello {
+    font-size: 2rem;
+  }
+  .hello span {
+    font-size: 1rem;
+  }
+  .name {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .image-container {
+    width: 100%;
+    padding-left: 0;
+    float: unset;
+  }
+  .image {
+    width: 32%;
+    height: auto;
+  }
+  .details-container {
+    padding-top: 1.5rem;
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+}
